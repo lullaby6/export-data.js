@@ -1,6 +1,6 @@
 # export-data.js
 
-Download/export and print of data in various formats, such as JSON, CSV, XLSX (Excel), PDF and images (using canvas).
+Download/export and print data in various formats, such as JSON, CSV, XLSX (Excel), PDF and images (using canvas).
 
 ## Installation
 
@@ -37,5 +37,5 @@ const products = [
 exportData.json(products, 'products')
 ```
 
-- data: Array to objects to export (e.g ```products```).
-- title: File name (optional).
+- **data**: Array to objects to export (e.g ```products```).
+- **title**: File name (optional).
