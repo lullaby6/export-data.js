@@ -16,6 +16,13 @@ npm i export-data.js
 <script src='https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js'></script>
 ```
 
+or <a href="https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js" target="_blank">Download</a>
+
+### Dependencies
+
+- ```jsPDF``` for PDF generation (loaded automatically if not included).
+- ```jsPDF AutoTable``` for table rendering in PDFs.
+
 ## Usage
 
 #### Example data:
@@ -115,8 +122,3 @@ exportData.printImage(products, 'Product List', true)
 - **title**: Title of the printed image (optional).
 - **date**: Boolean to include the current date in the title (optional).
 - **cellWidth**: Width of each cell in the canvas (default: 300px).
-
-## Dependencies
-
-- ```jsPDF``` for PDF generation (loaded automatically if not included).
-- ```jsPDF AutoTable``` for table rendering in PDFs.
