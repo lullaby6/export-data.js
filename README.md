@@ -18,7 +18,7 @@ npm i export-data.js
 
 or <a href="https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js" target="_blank">Download</a>
 
-### Dependencies
+## Dependencies
 
 - ```jsPDF``` for PDF generation (loaded automatically if not included).
 - ```jsPDF AutoTable``` for table rendering in PDFs.
