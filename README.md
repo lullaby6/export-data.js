@@ -4,13 +4,13 @@ Download/export and print data in various formats, such as JSON, CSV, XLSX (Exce
 
 ## Installation
 
-### NPM
+#### NPM
 
 ```bash
 npm i export-data.js
 ```
 
-### CDN
+#### CDN
 
 ```html
 <script src='https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js'></script>
