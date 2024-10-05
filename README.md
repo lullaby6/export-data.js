@@ -1,10 +1,12 @@
 # export-data.js
 
+Download/export and print of data in various formats, such as JSON, CSV, XLSX (Excel), PDF and images (using canvas).
+
 ## Installation
 
 ### NPM
 
-```
+```bash
 npm i export-data.js
 ```
 
@@ -16,7 +18,7 @@ npm i export-data.js
 
 ## Usage
 
-### Download file
+#### Example data:
 
 ```js
 const products = [
@@ -27,41 +29,13 @@ const products = [
     { id: 5, name: "Keyboard", price: 50, category: "Accessory", stock: 80 },
     // ...
 ]
-
-// download products as json file
-exportData.json(products)
-
-// download products as csv file
-exportData.csv(products)
-
-// download products as xlsx/excel file
-exportData.xlsx(products)
-
-// download products as pdf file
-exportData.pdf(products)
-
-// download products as image file (using canvas)
-exportData.image(products)
 ```
 
-### Print
+#### Download data as JSON file
 
 ```js
-const products = [
-    { id: 1, name: "Laptop", price: 1200, category: "Electronics", stock: 15 },
-    { id: 2, name: "Smartphone", price: 800, category: "Electronics", stock: 25 },
-    { id: 3, name: "Headphones", price: 100, category: "Accessory", stock: 50 },
-    { id: 4, name: "Mouse", price: 25, category: "Accessory", stock: 100 },
-    { id: 5, name: "Keyboard", price: 50, category: "Accessory", stock: 80 },
-    // ...
-]
-
-// print products as html table
-exportData.print(products)
-
-// print products as pdf table
-exportData.printPDF(products)
-
-// print products as canvas image table
-exportData.printImage(products)
+exportData.json(products, 'products')
 ```
+
+- data: Array to objects to export (e.g ```products```).
+- title: File name (optional).
