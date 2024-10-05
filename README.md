@@ -39,3 +39,31 @@ exportData.json(products, 'products')
 
 - **data**: Array to objects to export (e.g ```products```).
 - **title**: File name (optional).
+
+#### Download data as CSV file
+
+```js
+exportData.csv(products, 'products')
+```
+
+- **data**: Array to objects to export (e.g ```products```).
+- **title**: File name (optional).
+
+#### Download data as XLSX/Excel file
+
+```js
+exportData.xlsx(products, 'products')
+```
+
+- **data**: Array to objects to export (e.g ```products```).
+- **title**: File name (optional).
+
+#### Download data as PDF file
+
+```js
+exportData.pdf(products, 'products', true)
+```
+
+- **data**: Array to objects to export (e.g ```products```).
+- **title**: Title of the PDF (optional).
+- **date**: Boolean to include the current date in the title (optional).
