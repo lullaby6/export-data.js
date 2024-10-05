@@ -24,13 +24,13 @@ import exportData from 'export-data.js';
 Add the library directly to your HTML via CDN:
 
 ```html
-<script src='https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js'></script>
+<script src='https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.cdn.min.js'></script>
 ```
 
 #### Direct Download
 
 Download the minified version:
-- <a href="https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js" target="_blank">export-data.min.js</a>
+- <a href="https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.cdn.min.js" target="_blank">export-data.cdn.min.js</a>
 
 Include the downloaded file in your project:
 
@@ -42,8 +42,8 @@ Include the downloaded file in your project:
 
 The dependencies loaded automatically if not included.
 
-- ```jsPDF``` for PDF generation.
-- ```jsPDF AutoTable``` for table rendering in PDFs.
+- ```jsPDF``` for PDF generation (v1.5.3).
+- ```jsPDF AutoTable``` for table rendering in PDFs (v3.5.6).
 
 ## Usage
 
