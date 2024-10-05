@@ -6,14 +6,14 @@ Download/export and print data in various formats, such as JSON, CSV, XLSX (Exce
 
 #### NPM
 
-For Node.js projects, you can install the library using NPM:
+Install the library using NPM:
 
 
 ```bash
 npm i export-data.js
 ```
 
-This will add export-data.js to your node_modules and allow you to import it in your project:
+Import it into your project:
 
 ```js
 import exportData from 'export-data.js';
@@ -21,20 +21,18 @@ import exportData from 'export-data.js';
 
 #### CDN
 
-If you prefer not to use NPM or want to include the library directly in your HTML file, you can load it via CDN:
+Add the library directly to your HTML via CDN:
 
 ```html
 <script src='https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js'></script>
 ```
 
-This is ideal for including ```export-data.js``` in browser-based applications. The script will be fetched from the jsDelivr CDN, which ensures fast delivery and caching.
-
 #### Direct Download
 
-If you prefer to host the file yourself, you can download the minified version directly:
-- <a href="https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js" target="_blank">Download export-data.min.js</a>
+Download the minified version:
+- <a href="https://cdn.jsdelivr.net/gh/lullaby6/export-data.js/export-data.min.js" target="_blank">export-data.min.js</a>
 
-Once downloaded, you can place the file in your project and reference it like this:
+Include the downloaded file in your project:
 
 ```js
 <script src="/path/to/export-data.min.js"></script>
@@ -42,7 +40,9 @@ Once downloaded, you can place the file in your project and reference it like th
 
 ## Dependencies
 
-- ```jsPDF``` for PDF generation (loaded automatically if not included).
+The dependencies loaded automatically if not included.
+
+- ```jsPDF``` for PDF generation.
 - ```jsPDF AutoTable``` for table rendering in PDFs.
 
 ## Usage
