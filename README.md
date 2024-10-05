@@ -31,6 +31,8 @@ const products = [
 ]
 ```
 
+### Downloading data
+
 #### Download data as JSON file
 
 ```js
@@ -67,3 +69,54 @@ exportData.pdf(products, 'products', true)
 - **data**: Array to objects to export (e.g ```products```).
 - **title**: Title of the PDF (optional).
 - **date**: Boolean to include the current date in the title (optional).
+
+#### Download data as Image (using canvas)
+
+```js
+exportData.pdf(products, 'products', true)
+```
+
+- **data**: Array to objects to export (e.g ```products```).
+- **title**: Title of the PDF (optional).
+- **cellWidth**: Width of each cell in the canvas (default: 300px).
+
+### Printing data
+
+The module also allows printing data in HTML, PDF or as a canvas-generated image.
+
+#### Print as HTML Table
+
+```js
+exportData.print(products, 'Product List', true)
+```
+
+- **data**: Array to objects to export (e.g ```products```).
+- **title**: Title in the printed table (optional).
+- **date**: Boolean to include the current date in the title (optional).
+
+#### Print as PDF Table
+
+```js
+exportData.printPDF(products, 'Product List', true)
+```
+
+- **data**: Array to objects to export (e.g ```products```).
+- **title**: Title of the PDF table (optional).
+- **date**: Boolean to include the current date in the title (optional).
+- **theme**: Table style theme (default: 'grid', themes: 'grid', 'striped', 'plain').
+
+#### Print as Image (using canvas)
+
+```js
+exportData.printImage(products, 'Product List', true)
+```
+
+- **data**: Array to objects to export (e.g ```products```).
+- **title**: Title of the printed image (optional).
+- **date**: Boolean to include the current date in the title (optional).
+- **cellWidth**: Width of each cell in the canvas (default: 300px).
+
+## Dependencies
+
+- ```jsPDF``` for PDF generation (loaded automatically if not included).
+- ```jsPDF AutoTable``` for table rendering in PDFs.
