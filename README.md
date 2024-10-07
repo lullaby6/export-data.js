@@ -15,8 +15,16 @@ npm i export-data.js
 
 Import it into your project:
 
+#### CommonJS
+
 ```js
-import exportData from 'export-data.js';
+import exportData from 'export-data.cjs.js';
+```
+
+#### ES Modules
+
+```js
+import exportData from 'export-data.esm.js';
 ```
 
 #### CDN
