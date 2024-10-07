@@ -1,5 +1,5 @@
 {
-  "name": "export-table-js",
+  "name": "export-table.js",
   "version": "1.0.2",
   "description": "Download/export and print data in various formats, such as JSON, CSV, XLSX (Excel), PDF and images (using canvas).",
   "main": "export-data.cjs.js",
