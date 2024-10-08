@@ -1,6 +1,6 @@
 {
   "name": "export-data.js",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Download/export and print data in various formats, such as JSON, CSV, XLSX (Excel), PDF and images.",
   "main": "export-data.cjs.js",
   "scripts": {
