@@ -4,6 +4,7 @@
   "description": "Download/export and print data in various formats, such as JSON, CSV, XLSX (Excel), PDF and images.",
   "main": "export-data.cjs.js",
   "scripts": {
+    "push": "git add . && git commit -m 'publish' && git push",
     "publish": "git add . && git commit -m 'publish' && git push && npm publish --access public"
   },
   "keywords": [
