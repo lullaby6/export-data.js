@@ -18,13 +18,13 @@ Import it into your project:
 #### CommonJS
 
 ```js
-import exportData from 'export-data.cjs.js';
+const exportData = require('export-data.js/export-data.cjs.js');
 ```
 
 #### ES Modules
 
 ```js
-import exportData from 'export-data.esm.js';
+import exportData from 'export-data.js/export-data.esm.js';
 ```
 
 #### CDN
